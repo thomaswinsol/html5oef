@@ -1,0 +1,44 @@
+
+header,footer,nav,section,article{display:block;}
+
+*{margin:0px; padding:0px;} /* crossbrowser */
+
+/* HTML TAGS */
+
+/* we zetten 1em gelijk aan 10px door font-size op 62.5% te zetten */
+
+body {background:#f6eaea; font-size:62.5%}
+
+
+#container{margin:0 auto;width:77.5em;}
+header{float:left;width:77.5em;height:8.1em;}
+#logo{float:left;width:22.5em; height:8.1em; background:url('../images/logo.gif');}
+header nav{float:left; width:55em;height:3.3em; background:#9E4141;}
+header nav ul {margin-top:0.5em;}
+header nav ul li {display:inline; padding:0.4em;}
+
+section#contentleft {float:left;width:60.0em; height:100em; background:#fff;border:1px solid black;}
+section#contentright {float:left;width:15.5em; height:100em;  background:#fff;border:1px solid black;}
+
+#logoright1 {width:10em; height:5em; border:1px solid black;}
+
+section#left1 {width:60.0em; height:33em; background:#fff;border:1px solid black;}
+section#left2 {width:60.0em; height:33em; background:#fff;border:1px solid black;}
+section#left3 {width:60.0em; height:33em; background:#fff;border:1px solid black;}
+
+section#left1a {width:60em; height:5em;}
+section#left1b {width:60em; height:25em;}
+
+section#left1b figure {float:left;width:25em; height:32em;}
+section#left1b article{float:left;width:25em; height:32em;}
+
+section#left2 figure {float:left;width:25em; height:32em;}
+section#left2 article{float:left;width:25em; height:32em;}
+section#left3 article{float:left;width:25em; height:32em;}
+
+/*footer{float:left; width:77,5em; border-top:1px solid red;}*/
+section#footerleft nav{float:left; width:25em;height:8.3em; background:#fff; border:1px solid black;  }
+section#footermiddle nav{float:left; width:25em;height:8.3em; background:#fff; border:1px solid black;   }
+section#footerright {float:left; width:25em;height:8.3em; background:#fff; border:1px solid black;  }
+
+.hidden{display:none;}
